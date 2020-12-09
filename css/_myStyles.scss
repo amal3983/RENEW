@@ -32,6 +32,11 @@ h1 {
 	font-size:40px;
 }
 
+h2 {
+	font-size:35px;
+	line-height: 36px;
+}
+
 
 .skraa_sort {
 	background-image: $sort_h;
@@ -47,6 +52,7 @@ h1 {
 	background-position: bottom;
 	height: 143px;
 }
+
 .skraa_graa {
 	background-image: $graa_h;
 	background-size: contain;
@@ -54,6 +60,7 @@ h1 {
 	background-position: bottom;
 	height: 143px;
 }
+
 .skraa_graa_v {
 	background-image: $graa_v;
 	background-size: contain;
@@ -124,4 +131,24 @@ img {
 
 .bg-black {
 	background: #000;
+}
+
+
+
+
+
+
+
+/* AMALIE */
+
+
+.ticket {
+	background-size: 20px 100%;
+	width: 100%;
+	height: 4px;
+	background-image: linear-gradient(to right, transparent 50%, #282828 50%);
+
+
+	/*
+	border: 3px dashed #282828;*/
 }
