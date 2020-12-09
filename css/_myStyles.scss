@@ -49,7 +49,7 @@ h2 {
 	background-image: $sort_v;
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-position: bottom;
+	background-position: top;
 	height: 143px;
 }
 
@@ -65,7 +65,7 @@ h2 {
 	background-image: $graa_v;
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-position: bottom;
+	background-position: top;
 	height: 143px;
 }
 
@@ -75,7 +75,7 @@ h2 {
 
 .spacing
 {
-	letter-spacing: 7px;
+	letter-spacing: 5px;
 }
 
 .bold {
@@ -112,6 +112,7 @@ li {
 p {
 	margin: 0; /* Ingen ydre margen fra paragraffer */
 	padding: 0; /* Ingen indre margen fra paragraffer */
+	line-height: 25px;
 }
 
 /* Sikrer billeder er responsive */
@@ -147,8 +148,11 @@ img {
 	width: 100%;
 	height: 4px;
 	background-image: linear-gradient(to right, transparent 50%, #282828 50%);
+}
 
-
-	/*
-	border: 3px dashed #282828;*/
+.program_bg {
+	background-image: url("../img/program_img.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }

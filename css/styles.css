@@ -7213,7 +7213,7 @@ h2 {
   background-image: url("../img/sort_skraa_omvendt.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: top;
   height: 143px; }
 
 .skraa_graa {
@@ -7227,12 +7227,12 @@ h2 {
   background-image: url("../img/maerkegraa_skraa_omvendt.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: top;
   height: 143px; }
 
 /* SKRIFT */
 .spacing {
-  letter-spacing: 7px; }
+  letter-spacing: 5px; }
 
 .bold {
   font-family: soleil,sans-serif;
@@ -7265,7 +7265,8 @@ p {
   margin: 0;
   /* Ingen ydre margen fra paragraffer */
   padding: 0;
-  /* Ingen indre margen fra paragraffer */ }
+  /* Ingen indre margen fra paragraffer */
+  line-height: 25px; }
 
 /* Sikrer billeder er responsive */
 img {
@@ -7291,9 +7292,13 @@ img {
   background-size: 20px 100%;
   width: 100%;
   height: 4px;
-  background-image: linear-gradient(to right, transparent 50%, #282828 50%);
-  /*
-	border: 3px dashed #282828;*/ }
+  background-image: linear-gradient(to right, transparent 50%, #282828 50%); }
+
+.program_bg {
+  background-image: url("../img/program_img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
 
 /* EGEN CSS SLUT */
 /* ------------------------------------------------------------- */
@@ -7303,7 +7308,13 @@ img {
 /* ------------------------------------------------------------- */
 @media screen and (min-width: 768px) {
   h1 {
-    font-size: 50px; } }
+    font-size: 50px; }
+  /* AMALIE */
+  .program_bg {
+    background-image: url("../img/program_img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right; } }
 
 /* Her henter vi vores computer version _tablet.scss */
 /* Her har vi styles til vores computer version */
@@ -7313,8 +7324,10 @@ img {
 .h1 {
   font-size: 50px; }
 
-.btn-outline-primary, .btn-outline-secondary {
+.btn-outline-primary, .btn-outline-secondary, .btn-outline-light {
   border-width: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   letter-spacing: 5px;
   border-radius: 0; }
 
