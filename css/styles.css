@@ -7181,13 +7181,35 @@ ul ol {
 /* Ovenstående kode kan give problemer ved nogle 3. parts scripts man henter. Men det gør det nemmere at forstå og lave kodning når man starter. */
 body {
   margin: 0;
-  /* Ingen kanter i siden af browser */ }
+  /* Ingen kanter i siden af browser */
+  font-family: soleil,sans-serif;
+  font-weight: 400;
+  font-style: normal; }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   /* Ingen ydre margen fra overskrifter */
   padding: 0;
   /* Ingen indre margen fra overskrifter */ }
+
+/* SKRIFT */
+.spacing {
+  letter-spacing: 7px; }
+
+.bold {
+  font-family: soleil,sans-serif;
+  font-weight: 700;
+  font-style: normal; }
+
+.xbold {
+  font-family: soleil,sans-serif;
+  font-weight: 800;
+  font-style: normal; }
+
+.light {
+  font-family: soleil,sans-serif;
+  font-weight: 300;
+  font-style: normal; }
 
 ul, ol {
   margin: 2px 10px 2px 10px;
