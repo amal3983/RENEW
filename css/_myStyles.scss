@@ -1,6 +1,13 @@
+$sort_h: url("../img/sort_skraa.png");
+$sort_v: url("../img/sort_skraa_omvendt.png");
+$graa_h: url("../img/maerkegraa_skraa.png");
+$graa_v: url("../img/maerkegraa_skraa_omvendt.png");
+
+
 * { /* Gælder alt på hele siden */
 	box-sizing: border-box; /* Bokse har altid den størrelse man giver uanset om der tilføjes margen, padding mv. */
 	font-family: sans-serif;
+
 }
 /* Ovenstående kode kan give problemer ved nogle 3. parts scripts man henter. Men det gør det nemmere at forstå og lave kodning når man starter. */
 
@@ -10,15 +17,54 @@ body {
 	font-family: soleil,sans-serif;
 	font-weight: 400;
 	font-style: normal;
+	font-size:15px;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
 	margin: 0; /* Ingen ydre margen fra overskrifter */
 	padding: 0; /* Ingen indre margen fra overskrifter */
+	font-weight: 700;
+	font-style: normal;
+}
+
+h1 {
+	font-size:40px;
+}
+
+
+.skraa_sort {
+	background-image: $sort_h;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	height: 143px;
+}
+.skraa_sort_v {
+	background-image: $sort_v;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	height: 143px;
+}
+.skraa_graa {
+	background-image: $graa_h;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	height: 143px;
+}
+.skraa_graa_v {
+	background-image: $graa_v;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	height: 143px;
 }
 
 
 /* SKRIFT */
+
 
 .spacing
 {
@@ -74,4 +120,8 @@ img {
 	-moz-transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
+}
+
+.bg-black {
+	background: #000;
 }

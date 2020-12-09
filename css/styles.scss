@@ -10,11 +10,11 @@ $theme-colors: (
 				"info": #FE57C5,
 				"warning": #822,
 				"light": white,
-				"dark": #161616
+				"dark": #282828
 );
 
 /* Her retter vi margin og padding (p-1, p-2, pb-1.... og m-1, m-2, mt-1 osv) */
-$spacer: 15px;
+$spacer: 30px;
 /* 15px svarer til 1rem, som er bootstraps standard */
 
 /* Her importerer vi Bootstrap i vores egen css - Dvs bootstrap css filen skal ikke længere være i vores HTML dokument */
