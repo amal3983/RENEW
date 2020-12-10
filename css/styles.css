@@ -7300,6 +7300,13 @@ img {
   background-repeat: no-repeat;
   background-position: center; }
 
+.om_bg {
+  background-image: url("../img/om.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px; }
+
 /* EGEN CSS SLUT */
 /* ------------------------------------------------------------- */
 /* EGEN RESPONSIVE CSS START */
@@ -7314,7 +7321,10 @@ img {
     background-image: url("../img/program_img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center right; } }
+    background-position: center right; }
+  /* AMALIE */
+  .om_bg {
+    height: 100%; } }
 
 /* Her henter vi vores computer version _tablet.scss */
 /* Her har vi styles til vores computer version */
