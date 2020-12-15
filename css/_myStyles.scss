@@ -164,3 +164,20 @@ img {
 	background-position: center;
 	height: 400px;
 }
+
+/* SEAN */
+
+.nyhed_bg {
+	background-image: url("../img/nyhed_img.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/* Skaber transparens på inputsfelter i form */
+.form-control {
+	background: transparent;
+}
+.form-control:focus{
+	background: transparent;
+}
