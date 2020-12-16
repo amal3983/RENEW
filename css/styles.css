@@ -7384,6 +7384,9 @@ video {
 .form-control:focus {
   background: transparent; }
 
+textarea {
+  min-height: 190px; }
+
 /* EGEN CSS SLUT */
 /* ------------------------------------------------------------- */
 /* EGEN RESPONSIVE CSS START */
