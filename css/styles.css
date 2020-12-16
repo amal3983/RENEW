@@ -7307,6 +7307,81 @@ img {
   background-position: center;
   height: 400px; }
 
+/* NANNA START */
+/* Nanna */
+header {
+  height: 100vh;
+  width: 100%;
+  background-color: #444444;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center; }
+
+header video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  pointer-events: none; }
+
+header .head-text {
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  min-height: 100vh; }
+
+video {
+  height: 100vh; }
+
+#baeredygtig {
+  width: 100%; }
+
+.img-container {
+  height: 220px;
+  width: 220px;
+  background-color: white; }
+
+.lineheight {
+  line-height: 1.7; }
+
+.img-7 {
+  background-image: url("../img/fn-vm-7.png");
+  background-size: cover;
+  height: 240px;
+  width: 240px; }
+
+.img-12 {
+  background-image: url("../img/fn-vm-12.png");
+  background-size: cover;
+  height: 240px;
+  width: 240px; }
+
+.navi-bar {
+  min-height: 40px;
+  margin-left: 0;
+  margin-right: 0; }
+
+/* SEAN */
+.nyhed_bg {
+  background-image: url("../img/nyhed_img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+/* Skaber transparens på inputsfelter i form & styling*/
+.form-control {
+  background: transparent;
+  border-width: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  letter-spacing: 5px;
+  border-radius: 0;
+  border-color: white; }
+
+.form-control:focus {
+  background: transparent; }
+
 /* EGEN CSS SLUT */
 /* ------------------------------------------------------------- */
 /* EGEN RESPONSIVE CSS START */
