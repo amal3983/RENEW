@@ -64,14 +64,16 @@ Sætter kode op pænt automatisk!
 
 
     <!-- logo i navbar -->
-    <nav class="navbar navbar-dark mx-0 navi-bar">
+    <nav class="navbar navbar-dark mx-0 navi-bar py-3 fixed-top">
+        <div class="container-xl">
         <a class="navbar-brand" href="index.html">
-            <img src="img/renew_logo_png-kopi2.png" width="145" height="65" class="d-inline-block align-top" alt="brand">
+            <img src="img/renew_logo_png-kopi2.png" class="logo d-inline-block align-top"
+                 alt="brand">
         </a>
 
 
 
-        <button class="navbar-toggler bg-secondary" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -112,16 +114,16 @@ Sætter kode op pænt automatisk!
 
             </ul>
         </div>
-
+        </div>
     </nav>
 
 
 
 
 
-    <div class="container-fluid text-center my-auto">
+    <div class="container-fluid text-center my-auto pt-4 pt-md-5">
 
-        <div class="row mt-auto header-text-container">
+        <div class="row mt-auto header-text-container  pt-4 pt-md-5">
             <div class="col-12 col-md-12 col-lg-12 my-5">
                 <small class="spacing">EN KONCERT MED <br class="d-md-none d-block"> FOKUS PÅ</small>
 
@@ -129,7 +131,7 @@ Sætter kode op pænt automatisk!
                     <span class="text-secondary"> BÆREDYG&shyTIGHED </span></h1>
 
 
-                <h2 class="mb-5"> 4. JUNI - <br class="d-lg-none d-block"> 5. JUNI 2021</h2>
+                <h2 class="mb-4"> 4. JUNI - <br class="d-lg-none d-block"> 5. JUNI 2021</h2>
 
 
 
@@ -150,7 +152,7 @@ Sætter kode op pænt automatisk!
 <section id="baeredygtig" class="bg-black">
 
 
-    <div class="container px-0 px-lg-5 pb-5">
+    <div class="container px-2 px-sm-3 px-md-5 px-lg-4 pb-5">
 
         <div class="row pb-5 px-lg-5">
 
@@ -180,50 +182,22 @@ Sætter kode op pænt automatisk!
 
     <div class="col-lg-4 col-12 order-1 order-lg-2">
         <div class="row">
-            <div class="col-12 col-md-4 mb-3 mb-lg-0 col-lg-12 mb-lg-3">
+            <div class="col-12 col-md-4 mb-3 col-lg-12 mr-md-3">
+                <div class="row justify-content-center justify-content-md-start justify-content-lg-end">
             <img src="img/fn-vm-7.jpg">
+                </div>
             </div>
 
             <div class="col-12 col-md-4  mb-3 mb-lg-0 col-lg-12">
+                <div class="row justify-content-center justify-content-md-start justify-content-lg-end">
                 <img src="img/fn-vm-12.jpg">
+                </div>
             </div>
 
 
         </div>
     </div>
         </div>
-
-
-
-
-
-            <!-- verdensmål billeder -->
-         <!--       <div class="col-md-6 col-lg-6  my-sm-4 my-md-0 order-1 order-lg-2">
-
-                    <div class="row">
-                    <div class="col-12 col-md-6 col-lg-12 mb-3 mb-md-0 mb-lg-3">
-                    <div class="bg-white">
-                         <div class="img-7">
-
-
-                          </div>
-                    </div>
-                    </div>
-
-
-                    <div class="col-12 col-md-6 col-lg-12 mb-3 mx-auto">
-                        <div class="bg-white">
-                         <div class="img-12">
-d
-
-                         </div>
-                        </div>
-                    </div>
-                    </div>
-
-                </div>
-
-        </div>-->
 
     </div>
 
@@ -472,9 +446,17 @@ d
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script>
-    $(function () {
+        $(function () {
+            $(window).scroll(function () { /* Registrere scroll funktion */
+                let scroll = $(window).scrollTop(); /* VARIABLE -- Registrerer om brugeren er i toppen af siden */
+                if (scroll === 0) { /* Hvis brugeren er i toppen (0), klassen "black" bliver fjernet */
+                    $(".fixed-top").removeClass('black');
+                } else {
+                    $('.fixed-top').addClass('black'); /* Ellers bliver klassen "black" tilføjet */
+                }
+            });
+        });
 
-    });
 </script>
 
 </body>
