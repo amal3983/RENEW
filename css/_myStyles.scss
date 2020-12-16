@@ -174,9 +174,17 @@ img {
 	background-position: center;
 }
 
-/* Skaber transparens på inputsfelter i form */
+
+
+/* Skaber transparens på inputsfelter i form & styling*/
 .form-control {
 	background: transparent;
+	border-width: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	letter-spacing: 5px;
+	border-radius: 0;
+	border-color: white;
 }
 .form-control:focus{
 	background: transparent;
