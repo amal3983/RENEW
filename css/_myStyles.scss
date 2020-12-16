@@ -18,9 +18,16 @@ body {
 	font-weight: 400;
 	font-style: normal;
 	font-size:15px;
-	overflow-x: hidden;
-	-ms-overflow-x: hidden;
 
+}
+
+.black {
+	color: white;
+	background: black;
+}
+
+.logo {
+	width: 150px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -40,37 +47,9 @@ h2 {
 }
 
 
-.skraa_sort {
-	background-image: $sort_h;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: bottom;
-	height: 143px;
+.skraa {
+	width: 100%;
 }
-.skraa_sort_v {
-	background-image: $sort_v;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: top;
-	height: 143px;
-}
-
-.skraa_graa {
-	background-image: $graa_h;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: bottom;
-	height: 143px;
-}
-
-.skraa_graa_v {
-	background-image: $graa_v;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: top;
-	height: 143px;
-}
-
 
 /* SKRIFT */
 

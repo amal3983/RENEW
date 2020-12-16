@@ -7185,9 +7185,14 @@ body {
   font-family: soleil,sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 15px;
-  overflow-x: hidden;
-  -ms-overflow-x: hidden; }
+  font-size: 15px; }
+
+.black {
+  color: white;
+  background: black; }
+
+.logo {
+  width: 150px; }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
@@ -7204,33 +7209,8 @@ h2 {
   font-size: 35px;
   line-height: 36px; }
 
-.skraa_sort {
-  background-image: url("../img/sort_skraa.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  height: 143px; }
-
-.skraa_sort_v {
-  background-image: url("../img/sort_skraa_omvendt.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: top;
-  height: 143px; }
-
-.skraa_graa {
-  background-image: url("../img/maerkegraa_skraa.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  height: 143px; }
-
-.skraa_graa_v {
-  background-image: url("../img/maerkegraa_skraa_omvendt.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: top;
-  height: 143px; }
+.skraa {
+  width: 100%; }
 
 /* SKRIFT */
 .spacing {
@@ -7396,6 +7376,8 @@ textarea {
 @media screen and (min-width: 768px) {
   h1 {
     font-size: 50px; }
+  .logo {
+    width: 200px; }
   /* AMALIE */
   .program_bg {
     background-image: url("../img/program_img.jpg");
