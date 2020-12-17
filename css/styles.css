@@ -7198,6 +7198,7 @@ ul ol {
 body {
   margin: 0;
   /* Ingen kanter i siden af browser */
+  scroll-behavior: smooth;
   font-weight: 400;
   font-style: normal;
   font-size: 15px; }
