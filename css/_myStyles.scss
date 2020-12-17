@@ -6,14 +6,14 @@ $graa_v: url("../img/maerkegraa_skraa_omvendt.png");
 
 * { /* Gælder alt på hele siden */
 	box-sizing: border-box; /* Bokse har altid den størrelse man giver uanset om der tilføjes margen, padding mv. */
-	font-family: sans-serif;
+	font-family: soleil,sans-serif;
 
 }
 /* Ovenstående kode kan give problemer ved nogle 3. parts scripts man henter. Men det gør det nemmere at forstå og lave kodning når man starter. */
 
 body {
 	margin: 0; /* Ingen kanter i siden af browser */
-	font-family: soleil,sans-serif;
+
 	font-weight: 400;
 	font-style: normal;
 	font-size:15px;
@@ -232,15 +232,20 @@ video {
 .form-control {
 	background: transparent;
 	border-width: 5px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 22px;
+	padding-bottom: 22px;
 	letter-spacing: 5px;
 	border-radius: 0;
 	border-color: white;
 }
+
 .form-control:focus{
 	background: transparent;
 }
 textarea{
 	min-height: 190px;
+}
+
+.nh_btn {
+	width: auto;
 }
