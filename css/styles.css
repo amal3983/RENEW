@@ -7347,18 +7347,6 @@ video {
 .lineheight {
   line-height: 1.7; }
 
-.img-7 {
-  background-image: url("../img/fn-vm-7.png");
-  background-size: cover;
-  height: 240px;
-  width: 240px; }
-
-.img-12 {
-  background-image: url("../img/fn-vm-12.png");
-  background-size: cover;
-  height: 240px;
-  width: 240px; }
-
 .navi-bar {
   min-height: 40px;
   margin-left: 0;
