@@ -64,7 +64,7 @@ Sætter kode op pænt automatisk!
 
 
     <!-- logo i navbar -->
-    <nav class="navbar navbar-dark mx-0 navi-bar py-3 fixed-top">
+    <nav class="navbar navbar-dark mx-0 navi-bar py-3 fixed-top transition">
         <div class="container-xl">
         <a class="navbar-brand" href="index.html">
             <img src="img/renew_logo_png-kopi2.png" class="logo d-inline-block align-top"
@@ -73,57 +73,71 @@ Sætter kode op pænt automatisk!
 
 
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler transition" style="z-index: 100" type="button" data-toggle="collapse"
+                data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="menu-icon fas fa-bars fa-lg transition"></i>
         </button>
 
 
-        <div class="collapse navbar-collapse h4" id="navbarNavDropdown">
-            <ul class="navbar-nav">
+            <div class="collapse navbar-collapse h4"
+                 id="navbarNavDropdown">
 
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Line Up
-                    </a>
-                </li>
+                <div class="navbar-nav vh-100 text-center">
+                    <ul class="center_nav">
+                        <li class="nav-item dropdown pb-4">
+                            <a class="nav-link text-uppercase font-weight-normal spacing" href="#" data-toggle="dropdown"
+                               aria-haspopup="true"
+                               aria-expanded="false">
+                                Line Up
+                            </a>
+                        </li>
 
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="#"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Billetter
-                    </a>
-                </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-uppercase font-weight-normal spacing transition" href="#" data-toggle="dropdown" aria-haspopup="true"
+                               aria-expanded="false">
+                                Billetter
+                            </a>
+                        </li>
 
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="#"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Bæredygtighed
-                    </a>
-                </li>
+                        <li class="nav-item dropdown py-4">
+                            <a class="nav-link text-uppercase font-weight-normal spacing transition" href="#" data-toggle="dropdown" aria-haspopup="true"
+                               aria-expanded="false">
+                                Bæredygtighed
+                            </a>
+                        </li>
 
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="#"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Om os
-                    </a>
-                </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-uppercase font-weight-normal spacing transition" href="#" data-toggle="dropdown" aria-haspopup="true"
+                               aria-expanded="false">
+                                Om os
+                            </a>
+                        </li>
 
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="#"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Kontakt
-                    </a>
-                </li>
+                        <li class="nav-item dropdown py-4">
+                            <a class="nav-link text-uppercase font-weight-normal spacing transition" href="#"
+                               data-toggle="dropdown" aria-haspopup="true"
+                               aria-expanded="false">
+                                Kontakt
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
 
 
-            </ul>
-        </div>
-        </div>
+            </div>
     </nav>
 
 
 
 
 
-    <div class="container-fluid text-center my-auto pt-4 pt-md-5">
+    <div class="container-fluid  text-center my-auto pt-4 pt-md-5">
 
-        <div class="row mt-auto header-text-container  pt-4 pt-md-5">
+        <div class="row mt-autoheader-text-container  pt-4 pt-md-5">
             <div class="col-12 col-md-12 col-lg-12 my-5">
                 <small class="spacing">EN KONCERT MED <br class="d-md-none d-block"> FOKUS PÅ</small>
 
@@ -182,13 +196,13 @@ Sætter kode op pænt automatisk!
 
     <div class="col-lg-4 col-12 order-1 order-lg-2">
         <div class="row">
-            <div class="col-12 col-md-4 mb-3 col-lg-12 mr-md-3">
+            <div class="col-12 col-sm col-md mb-3 col-lg-12 mr-sm-3 mr-lg-0">
                 <div class="row justify-content-center justify-content-md-start justify-content-lg-end">
             <img alt="FN's verdensmål - Nummer 7" src="img/fn-vm-7.jpg">
                 </div>
             </div>
 
-            <div class="col-12 col-md-4  mb-3 mb-lg-0 col-lg-12">
+            <div class="col-12 col-sm col-md  mb-4 mb-sm-3 mb-lg-0 col-lg-12">
                 <div class="row justify-content-center justify-content-md-start justify-content-lg-end">
                 <img alt="FN's verdensmål - Nummer 12" src="img/fn-vm-12.jpg">
                 </div>
@@ -433,7 +447,7 @@ Sætter kode op pænt automatisk!
 </div>
 
 <!--FOOTER -->
-<div class ="bg-dark mt-3 text-center">
+<div class="bg-dark mt-3 text-center">
     <div class="row">
         <div class="col-6">
             <p class="mb-3"> <i class="fas fa-copyright"></i> RENEW KONCERT I CVR:50 58 77 90</p>
@@ -464,6 +478,11 @@ Sætter kode op pænt automatisk!
                     $('.fixed-top').addClass('black'); /* Ellers bliver klassen "black" tilføjet */
                 }
             });
+
+            $(".navbar-toggler").click(function () { /* Når man klikker på ".navbar-toggler" */
+                $("nav").toggleClass("bg-black"); /* "Nav" toggler mellem klassen bg-black */
+                $(".menu-icon").toggleClass("fa-times"); /* Menu ikonet skifter mellem en burgermenu og et kryds */
+            })
         });
 
 </script>
