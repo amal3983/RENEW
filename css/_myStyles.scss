@@ -11,7 +11,6 @@ $graa_v: url("../img/maerkegraa_skraa_omvendt.png");
 }
 /* Ovenstående kode kan give problemer ved nogle 3. parts scripts man henter. Men det gør det nemmere at forstå og lave kodning når man starter. */
 
-
 body {
 	margin: 0; /* Ingen kanter i siden af browser */
 	font-family: soleil,sans-serif;
@@ -37,8 +36,8 @@ h1, h2, h3, h4, h5, h6 {
 	font-style: normal;
 }
 
-h1 {
-	font-size:35px;
+h1, .h1 {
+	font-size:40px;
 }
 
 h2 {

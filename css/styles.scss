@@ -27,6 +27,15 @@ ul ol {
 	margin-bottom: 20px;
 }
 
+.btn-outline-primary, .btn-outline-secondary, .btn-outline-light {
+	border-width: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	letter-spacing: 5px;
+	border-radius: 0;
+	font-size:14px;
+}
+
 /* BOOTSTRAP SLUT */
 /* ------------------------------------------------------------- */
 /* EGEN CSS START */
@@ -46,15 +55,3 @@ ul ol {
 
 /* EGEN RESPONSIVE CSS SLUT */
 /* ------------------------------------------------------------- */
-
-.h1 {
-	font-size: 50px;
-}
-
-.btn-outline-primary, .btn-outline-secondary, .btn-outline-light {
-	border-width: 5px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	letter-spacing: 5px;
-	border-radius: 0;
-}
