@@ -20,6 +20,16 @@ body {
 
 }
 
+
+.fab:hover {
+	color: #CA0185;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+
 .black {
 	color: white;
 	background: black;
@@ -202,9 +212,6 @@ video {
 .lineheight {
 	line-height: 1.7;
 }
-
-
-
 
 
 
