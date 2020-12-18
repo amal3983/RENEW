@@ -516,7 +516,7 @@ Sætter kode op pænt automatisk!
                 $(".menu-icon").toggleClass("fa-times"); /* Menu ikonet skifter mellem en burgermenu og et kryds */
             });
 
-            $('.navbar-nav .nav-link').on('click', function(){
+            $('.navbar-nav .nav-link').click(function(){
                 $('.navbar-collapse').collapse('hide');
                 $("nav").toggleClass("bg-black"); /* "Nav" toggler mellem klassen bg-black */
                 $(".menu-icon").removeClass("fa-times"); /* Menu ikonet skifter mellem en burgermenu og et kryds */
