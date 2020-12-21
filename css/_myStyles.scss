@@ -325,10 +325,12 @@ video {
 	letter-spacing: 5px;
 	border-radius: 0;
 	border-color: white;
+	color: white !important;
 }
 
-.form-control:focus{
+.form-control:focus {
 	background: transparent;
+	color: white !important;
 }
 textarea{
 	min-height: 190px;
