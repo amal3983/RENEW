@@ -50,6 +50,29 @@ ul ol {
 	color: white;
 }
 
+.navbar-nav {
+	overflow-x:scroll;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #282828;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #505050;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #4a4a4a;
+}
 
 /* BOOTSTRAP SLUT */
 /* ------------------------------------------------------------- */
