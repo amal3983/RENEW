@@ -1,18 +1,13 @@
 <!-- 
 
 TIPS
-
----- BOOTSTRAP ----
-
-- Aldrig giv "row" en baggrundsfarve, lav en div udenom row.
-
-- Aldrig giv "col-x" en baggrundsfarve, lav en ny div indeni col.
-
-
-HUSK
-
 CTRL + ALT + L
 Sætter kode op pænt automatisk!
+
+BOOTSTRAP
+
+  Aldrig giv "row" en baggrundsfarve, lav en div udenom row.
+  Aldrig giv "col-x" en baggrundsfarve, lav en ny div indeni col.
  
 -->
 
@@ -54,7 +49,7 @@ Sætter kode op pænt automatisk!
 
 
 <!-- logo i navbar -->
-<nav class="navbar navbar-dark mx-0 navi-bar py-3 fixed-top transition">
+<nav class="navbar navbar-dark mx-0 navi-bar py-3 px-1 px-sm-3 px-md-5 fixed-top transition">
     <div class="container-xl">
         <a class="navbar-brand" href="#renew">
             <img src="img/renew_logo_png-kopi2.png" class="logo d-inline-block align-top"
@@ -105,7 +100,7 @@ Sætter kode op pænt automatisk!
                         </a>
                     </li>
 
-                    <li class="nav-item dropdown pb-4">
+                    <li class="nav-item dropdown pb-5">
                         <a class="nav-link text-uppercase font-weight-normal spacing transition" href="#kontakt">
                             Kontakt
                         </a>
@@ -125,7 +120,7 @@ Sætter kode op pænt automatisk!
 
 <header id="renew" class="header_bg container-fluid bg-dark">
 
-    <video class="bg_video" autoplay muted loop src="img/concert_header.mp4"></video>
+    <video class="bg_video" playsinline autoplay muted loop src="img/concert_header.mp4"></video>
 
 
 
@@ -142,7 +137,7 @@ Sætter kode op pænt automatisk!
                 <small class="spacing">EN KONCERT MED <br class="d-md-none d-block"> FOKUS PÅ</small>
 
                 <h1 class="mb-2">MUSIK, FEST OG <br class="d-md-block d-none">
-                    <span class="text-secondary"> BÆREDYG&shyTIGHED </span></h1>
+                    <span class="text-secondary"> BÆREDYG&shy;TIGHED </span></h1>
 
 
                 <h2 class="mb-4"> 4. JUNI - <br class="d-lg-none d-block"> 5. JUNI 2021</h2>
@@ -165,13 +160,13 @@ Sætter kode op pænt automatisk!
 
     <div class="container px-3 px-sm-4 px-md-5 px-lg-4 pb-5 pt-3">
 
-        <div class="row pb-5 px-lg-5 pt-5">
+        <div class="row pb-5 px-lg-5 pt-3 pt-sm-5">
 
             <div class="col-sm-12 col-md-12 col-lg order-2 order-lg-0 mx-auto mx-md-0 mx-lg-auto">
 
                 <small class="spacing text-center">LÆR KONCERTEN AT KENDE</small>
                 <h1 class="pb-1">HVORDAN ER VI
-                    <span class="text-secondary">BÆREDYG&shyTIGE?</span></h1>
+                    <span class="text-secondary">BÆREDYG&shy;TIGE?</span></h1>
 
                 <p class="mb-3 lineheight">Renew koncert er en af de meget få koncerter begivenheder i Danmark,
                     der benytter sig 100% af grøn energi. Vores samarbejdspartnere sørger for at levere
@@ -204,7 +199,7 @@ Sætter kode op pænt automatisk!
                 </div>
             </div>
 
-            <div class="col-12 col-sm col-md  mb-4 mb-sm-3 mb-lg-0 col-lg-12">
+            <div class="col-12 col-sm col-md  mb-4 mb-sm-43 mb-lg-0 col-lg-12">
                 <div class="row justify-content-center justify-content-md-start justify-content-lg-end">
                 <img alt="FN's verdensmål - Nummer 12" src="img/fn-vm-12.jpg">
                 </div>
@@ -227,13 +222,13 @@ Sætter kode op pænt automatisk!
 
 
 <!-- AMALIES STYKKE -->
-<div class="bg-black">
+<div class="bg-black" id="billet">
     <img class="skraa" alt="Divider - Grå skråning" src="img/maerkegraa_skraa.png">
 </div>
 
 
 <!-- BILLETTER -->
-<section id="billet">
+<section>
 <div class="container py-5 text-center">
     <small class="spacing">VÆR KLAR TIL EN FEST</small>
     <h1 class="mb-4">KØB <span class="text-secondary">BILLETTER</span></h1>
